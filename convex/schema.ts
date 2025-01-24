@@ -9,3 +9,6 @@ export default defineSchema({
     clerkId: v.string(),
   }).index("by_clerk_id", ["clerkId"]),
 });
+
+
+// https://caring-iguana-31.clerk.accounts.dev
