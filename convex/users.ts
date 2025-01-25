@@ -36,7 +36,7 @@ export const getUsers = query({
   },
 });
 
-export const getUser = query({
+export const getUserByClerkId = query({
   args: {
     clerkId: v.string(),
   },
